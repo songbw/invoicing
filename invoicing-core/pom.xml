@@ -8,6 +8,7 @@
   <groupId>com.glacier.project.invoicing</groupId>
   <artifactId>invoicing-core</artifactId>
   <version>0.0.1</version>
+	<packaging>jar</packaging>
 	<dependencies>
   		<!-- quartz begin -->
 		<dependency>

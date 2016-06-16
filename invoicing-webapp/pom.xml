@@ -36,10 +36,16 @@
 		<!-- unit end -->
 
 		<!-- compent begin -->
+		<!--<dependency>-->
+			<!--<groupId>com.google.code.kaptcha</groupId>-->
+			<!--<artifactId>kaptcha</artifactId>-->
+			<!--<version>2.3.2</version>-->
+			<!--&lt;!&ndash;<classifier>jdk15</classifier>&ndash;&gt;-->
+		<!--</dependency>-->
 		<dependency>
-			<groupId>com.google.code.kaptcha</groupId>
+			<groupId>com.github.axet</groupId>
 			<artifactId>kaptcha</artifactId>
-			<classifier>jdk15</classifier>
+			<version>0.0.9</version>
 		</dependency>
 		<!-- compent end -->
 
@@ -53,5 +59,18 @@
 
   <build>
     <finalName>invoicing-webapp</finalName>
+	  <plugins>
+		  <!-- jetty插件 -->
+		  <plugin>
+			  <groupId>org.eclipse.jetty</groupId>
+			  <artifactId>jetty-maven-plugin</artifactId>
+			  <version>9.2.1.v20140609</version>
+			  <configuration>
+				  <httpConnector>
+					  <port>7001</port>
+				  </httpConnector>
+			  </configuration>
+		  </plugin>
+	  </plugins>
   </build>
 </project>
