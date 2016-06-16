@@ -45,9 +45,9 @@ org.springframework.validation.BindException<%@ page contentType="text/html;char
 				</table>
 			</div>
 			<P style="FONT-SIZE: 24px; LINE-HEIGHT: 70px">啊~哦~ 由于语法格式有误，服务器无法理解此请求！</P>
-			<P style="MARGIN-BOTTOM: 30px">请检查提交的数据，如果不作修改，客户程序就无法重复此请求，或者点击<A href="<c:url value="/do/index.htm"/>">冰川系统首页</A></P>
+			<P style="MARGIN-BOTTOM: 30px">请检查提交的数据，如果不作修改，客户程序就无法重复此请求，或者点击<A href="<c:url value="/do/index.htm"/>">冰象科技</A></P>
 			<P style="FONT-SIZE: 14px; LINE-HEIGHT: 20px">
-				您若遇到不能解决的问题，请联系冰川软件客服，我们竭尽全力为您们排忧解难^_^
+				您若遇到不能解决的问题，请联系冰象科技客服，我们竭尽全力为您们排忧解难^_^
 			</P>
 		</div>
 	</div>
@@ -56,7 +56,7 @@ org.springframework.validation.BindException<%@ page contentType="text/html;char
 <FOOTER class="mod-footer mod-cs-footer">
 	<div class="clearfix hidden-box"></div>
 	<div class=footer-box>
-		<div class=copy-box>©2014&nbsp;BingChuan</div>
+		<div class=copy-box>©2016&nbsp;BingXiang</div>
 	</div>
 </FOOTER>
 </body>
